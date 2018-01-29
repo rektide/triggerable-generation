@@ -1,0 +1,17 @@
+{
+	"name": "triggerable-generation",
+	"version": "1.0.0",
+	"description": "Wrapper async generator with a means to trigger re-evaluation",
+	"main": "triggerable-generation.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://archive.voodoowarez.com/triggerable-generation"
+	},
+	"keywords": [],
+	"author": "rektide de la faye",
+	"license": "X11",
+	"module": "triggerable-generation.js"
+}
