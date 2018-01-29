@@ -1,6 +1,6 @@
 {
 	"name": "triggerable-generation",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Trigger a generator, again and again. Output as async generator.",
 	"main": "triggerable-generation.js",
 	"scripts": {
@@ -15,6 +15,6 @@
 	"license": "X11",
 	"module": "triggerable-generation.js",
 	"dependencies": {
-		"defer-esm": "^1.0.0"
+		"defer-esm": "^1.0.2"
 	}
 }

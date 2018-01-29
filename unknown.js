@@ -3,13 +3,13 @@
 */
 export function unknownFilterFactory( existing){
 	var known= new WeakSet()
-	if( existing&& typeof existing!== "string"){
+	if( existing&& typeof existing!== "string"&& existing[ Symbol.iterator]){
 		try{
 			for( var o of existing){
 				known.add( o)
 			}
-		}catch(ex){
-			know.add( existing)
+		}catch(err){
+			known.add( existing)
 		}
 	}
 	function unknownFilter( o){
@@ -21,3 +21,4 @@ export function unknownFilterFactory( existing){
 	}
 	return unknownFilter
 }
+export default unknownFilterFactory
