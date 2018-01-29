@@ -1,6 +1,6 @@
 {
 	"name": "triggerable-generation",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Trigger a generator, again and again. Output as async generator.",
 	"main": "triggerable-generation.js",
 	"scripts": {

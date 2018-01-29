@@ -28,7 +28,11 @@ export function triggerableGeneration( generator, { reducer}= defaults){
 	}
 	async function* asyncGenerator(){
 		while( true){
-			for await( let o of generator()){
+			var gen= generator()
+			if( gen.then){
+				gen= await gen
+			}
+			for await( let o of gen){
 				if( !reducer|| reducer( o)){
 					yield o
 				}
