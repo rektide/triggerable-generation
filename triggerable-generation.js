@@ -1,5 +1,5 @@
-import Defer from "p-defer"
-import unknownFilter from "./unknown"
+import Defer from "defer-esm"
+import unknownFilter from "./unknown.js"
 
 export let defaults= {
 	reducer: unknownFilter
