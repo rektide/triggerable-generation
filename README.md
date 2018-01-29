@@ -1,6 +1,6 @@
 # Triggerable Generation
 
-> Wrapper async generator with a means to trigger re-evaluation
+> Trigger a generator, again and again. Output as async generator.
 
 This is useful if you want to create an async generator around some factory, with a user means to re-run the generator.
 

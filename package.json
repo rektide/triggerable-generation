@@ -1,7 +1,7 @@
 {
 	"name": "triggerable-generation",
 	"version": "1.0.0",
-	"description": "Wrapper async generator with a means to trigger re-evaluation",
+	"description": "Trigger a generator, again and again. Output as async generator.",
 	"main": "triggerable-generation.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
