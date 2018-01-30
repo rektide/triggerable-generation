@@ -13,7 +13,7 @@ export function unknownFilterFactory( existing){
 		}
 	}
 	function unknownFilter( o){
-		var isUnknown= known.has( o)
+		var isUnknown= !known.has( o)
 		if ( isUnknown){ 
 			known.add( o)
 		}
